@@ -1,0 +1,71 @@
+[
+  {
+    "id": "refund-request",
+    "title": "Refund Request",
+    "category": "Refunds",
+    "description": "Confirm that a customer's refund request has been received and is being reviewed.",
+    "subject": "Refund Request Received - Booking {{bookingReference}}",
+    "body": "<p>Dear {{customerName}},</p><p>Thank you for contacting us regarding the refund for your booking <strong>{{bookingReference}}</strong>.</p><p>We have received your refund request and our team is currently reviewing it in accordance with the applicable fare rules and refund policy.</p><p>We will notify you once the review is complete. Please note that processing times may vary depending on your payment provider and the applicable refund conditions.</p><p>If you have any additional information regarding your request, please reply to this email and include your booking reference.</p><p>Thank you for your patience and understanding.</p><p>Kind regards,<br />Customer Support Team</p>",
+    "textBody": "Dear {{customerName}},\n\nThank you for contacting us regarding the refund for your booking {{bookingReference}}.\n\nWe have received your refund request and our team is currently reviewing it in accordance with the applicable fare rules and refund policy.\n\nWe will notify you once the review is complete. Processing times may vary depending on your payment provider and the applicable refund conditions.\n\nIf you have any additional information, please reply to this email and include your booking reference.\n\nThank you for your patience and understanding.\n\nKind regards,\nCustomer Support Team",
+    "variables": [
+      {
+        "name": "customerName",
+        "label": "Customer Name",
+        "example": "John Smith"
+      },
+      {
+        "name": "bookingReference",
+        "label": "Booking Reference",
+        "example": "ABC123"
+      }
+    ],
+    "tags": ["refund", "booking", "customer-support"],
+    "language": "en"
+  },
+  {
+    "id": "booking-confirmation",
+    "title": "Booking Confirmation",
+    "category": "Bookings",
+    "description": "Confirm that a customer's booking details have been recorded and provide guidance on checking the itinerary.",
+    "subject": "Your Booking Confirmation - {{bookingReference}}",
+    "body": "<p>Dear {{customerName}},</p><p>Thank you for choosing our airline.</p><p>We are writing to confirm that your booking reference is <strong>{{bookingReference}}</strong>.</p><p>Please review your itinerary and passenger details to ensure that all information is correct. We recommend checking your flight schedule and applicable baggage allowance before departure.</p><p>For a smoother journey, please arrive at the airport with sufficient time to complete check-in and security procedures. Check-in deadlines and boarding requirements may vary by airport and destination.</p><p>If you notice any discrepancies in your booking or need assistance, please contact our customer support team and provide your booking reference.</p><p>We appreciate your choice and look forward to welcoming you on board.</p><p>Kind regards,<br />Customer Support Team</p>",
+    "textBody": "Dear {{customerName}},\n\nThank you for choosing our airline.\n\nYour booking reference is {{bookingReference}}.\n\nPlease review your itinerary and passenger details to ensure that all information is correct. We recommend checking your flight schedule and applicable baggage allowance before departure.\n\nPlease arrive at the airport with sufficient time to complete check-in and security procedures. Check-in deadlines and boarding requirements may vary by airport and destination.\n\nIf you need assistance, contact our customer support team and provide your booking reference.\n\nWe appreciate your choice and look forward to welcoming you on board.\n\nKind regards,\nCustomer Support Team",
+    "variables": [
+      {
+        "name": "customerName",
+        "label": "Customer Name",
+        "example": "John Smith"
+      },
+      {
+        "name": "bookingReference",
+        "label": "Booking Reference",
+        "example": "ABC123"
+      }
+    ],
+    "tags": ["booking", "confirmation", "flight"],
+    "language": "en"
+  },
+  {
+    "id": "flight-change",
+    "title": "Flight Change Inquiry",
+    "category": "Flight Changes",
+    "description": "Respond to a customer asking about changing their flight and explain which details are needed to review available options.",
+    "subject": "Flight Change Inquiry - Booking {{bookingReference}}",
+    "body": "<p>Dear {{customerName}},</p><p>Thank you for contacting us about changing your flight associated with booking <strong>{{bookingReference}}</strong>.</p><p>We will be happy to review the available options for your request. Flight changes are subject to seat availability, applicable fare rules, and any change fees or fare differences.</p><p>To help us review your request, please provide your preferred new travel date and, if applicable, your preferred departure time or alternative flight.</p><p>Please do not consider your itinerary changed until you receive an official confirmation of the updated booking.</p><p>If you have already provided your preferred travel details, our team will review the information and advise you on the next steps.</p><p>Thank you for your understanding. We look forward to assisting you.</p><p>Kind regards,<br />Customer Support Team</p>",
+    "textBody": "Dear {{customerName}},\n\nThank you for contacting us about changing your flight associated with booking {{bookingReference}}.\n\nFlight changes are subject to seat availability, applicable fare rules, and any change fees or fare differences.\n\nPlease provide your preferred new travel date and, if applicable, your preferred departure time or alternative flight.\n\nPlease do not consider your itinerary changed until you receive an official confirmation of the updated booking.\n\nThank you for your understanding. We look forward to assisting you.\n\nKind regards,\nCustomer Support Team",
+    "variables": [
+      {
+        "name": "customerName",
+        "label": "Customer Name",
+        "example": "John Smith"
+      },
+      {
+        "name": "bookingReference",
+        "label": "Booking Reference",
+        "example": "ABC123"
+      }
+    ],
+    "tags": ["flight-change", "booking", "customer-support"],
+    "language": "en"
+  }
+]
