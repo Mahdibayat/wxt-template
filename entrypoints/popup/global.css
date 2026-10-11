@@ -1,4 +1,5 @@
 :root {
+  --font: "YekanBakh", sans-serif;
 }
 
 * {
@@ -23,12 +24,29 @@ a:hover {
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: var(--font);
 }
 
+.main {
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.title > .logo {
+  width: 40px;
+  height: 40px;
+}
+.title > h5 {
+    position: relative;
+    top: 3px
+}
 
 @media (prefers-color-scheme: light) {
   :root {

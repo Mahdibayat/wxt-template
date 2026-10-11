@@ -8,4 +8,8 @@ export default defineConfig({
       sourcemap: true,
     },
   }),
+  manifest: {
+    permissions: ["tabs"],
+    host_permissions: ["https://mail.sepehranglobal.com/*"],
+  },
 });
