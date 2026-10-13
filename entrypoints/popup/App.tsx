@@ -1,9 +1,4 @@
-import { Suspense } from "react";
 import wxtLogo from "/wxt.svg";
-import Loading from "./components/ui/loading/loading";
-import { ErrorBoundary } from "react-error-boundary";
-import { ErrorFallback } from "./components/ui/error/error";
-import Templates from "./components/templates/templates";
 
 function App() {
   return (
@@ -12,11 +7,10 @@ function App() {
         <h5>نمونه های آماده رایانامه</h5>
         <img src={wxtLogo} className="logo" alt="WXT logo" />
       </div>
-      <ErrorBoundary FallbackComponent={ErrorFallback}>
-        <Suspense fallback={<Loading />}>
-          <Templates />
-        </Suspense>
-      </ErrorBoundary>
+
+      <p>
+        create by <span style={{ color: "red" }}>♥</span>
+      </p>
     </main>
   );
 }

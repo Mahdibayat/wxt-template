@@ -1,71 +1,97 @@
 [
   {
-    "id": "refund-request",
-    "title": "Refund Request",
-    "category": "Refunds",
-    "description": "Confirm that a customer's refund request has been received and is being reviewed.",
-    "subject": "Refund Request Received - Booking {{bookingReference}}",
-    "body": "<p>Dear {{customerName}},</p><p>Thank you for contacting us regarding the refund for your booking <strong>{{bookingReference}}</strong>.</p><p>We have received your refund request and our team is currently reviewing it in accordance with the applicable fare rules and refund policy.</p><p>We will notify you once the review is complete. Please note that processing times may vary depending on your payment provider and the applicable refund conditions.</p><p>If you have any additional information regarding your request, please reply to this email and include your booking reference.</p><p>Thank you for your patience and understanding.</p><p>Kind regards,<br />Customer Support Team</p>",
-    "textBody": "Dear {{customerName}},\n\nThank you for contacting us regarding the refund for your booking {{bookingReference}}.\n\nWe have received your refund request and our team is currently reviewing it in accordance with the applicable fare rules and refund policy.\n\nWe will notify you once the review is complete. Processing times may vary depending on your payment provider and the applicable refund conditions.\n\nIf you have any additional information, please reply to this email and include your booking reference.\n\nThank you for your patience and understanding.\n\nKind regards,\nCustomer Support Team",
-    "variables": [
-      {
-        "name": "customerName",
-        "label": "Customer Name",
-        "example": "John Smith"
-      },
-      {
-        "name": "bookingReference",
-        "label": "Booking Reference",
-        "example": "ABC123"
-      }
-    ],
-    "tags": ["refund", "booking", "customer-support"],
-    "language": "en"
+    "id": "1",
+    "title": "گواهی اشتغال به کار",
+    "body": "<p style='text-align: right;'>درخواست گواهی اشتغال به کار</p><p style='text-align: right;'>معاونت محترم منابع انسانی شرکت هواپیمایی سپهران / دی کیش</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>احتراما اینجانب*نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی*درخواست صدور گواهی اشتغال به کار جهت ارائه به*مخاطب* را دارم .<br/>خواهشمند است درخواست اینجانب بررسی و در صورت تأیید، اقدام لازم جهت صدور گواهی مربوطه انجام شود.</p><p style='text-align: right;'>با تشکر</p>"
   },
   {
-    "id": "booking-confirmation",
-    "title": "Booking Confirmation",
-    "category": "Bookings",
-    "description": "Confirm that a customer's booking details have been recorded and provide guidance on checking the itinerary.",
-    "subject": "Your Booking Confirmation - {{bookingReference}}",
-    "body": "<p>Dear {{customerName}},</p><p>Thank you for choosing our airline.</p><p>We are writing to confirm that your booking reference is <strong>{{bookingReference}}</strong>.</p><p>Please review your itinerary and passenger details to ensure that all information is correct. We recommend checking your flight schedule and applicable baggage allowance before departure.</p><p>For a smoother journey, please arrive at the airport with sufficient time to complete check-in and security procedures. Check-in deadlines and boarding requirements may vary by airport and destination.</p><p>If you notice any discrepancies in your booking or need assistance, please contact our customer support team and provide your booking reference.</p><p>We appreciate your choice and look forward to welcoming you on board.</p><p>Kind regards,<br />Customer Support Team</p>",
-    "textBody": "Dear {{customerName}},\n\nThank you for choosing our airline.\n\nYour booking reference is {{bookingReference}}.\n\nPlease review your itinerary and passenger details to ensure that all information is correct. We recommend checking your flight schedule and applicable baggage allowance before departure.\n\nPlease arrive at the airport with sufficient time to complete check-in and security procedures. Check-in deadlines and boarding requirements may vary by airport and destination.\n\nIf you need assistance, contact our customer support team and provide your booking reference.\n\nWe appreciate your choice and look forward to welcoming you on board.\n\nKind regards,\nCustomer Support Team",
-    "variables": [
-      {
-        "name": "customerName",
-        "label": "Customer Name",
-        "example": "John Smith"
-      },
-      {
-        "name": "bookingReference",
-        "label": "Booking Reference",
-        "example": "ABC123"
-      }
-    ],
-    "tags": ["booking", "confirmation", "flight"],
-    "language": "en"
+    "id": "2",
+    "title": "گواهی اشتغال به کار بانک",
+    "body": "<p style='text-align: right;'>درخواست گواهی اشتغال به کار</p><p style='text-align: right;'>معاونت محترم منابع انسانی شرکت هواپیمایی سپهران / دی کیش</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* درخواست صدور  گواهی اشتغال به کار جهت ارائه به *مخاطب* را دارم .<br />گواهی مذکور جهت ارائه به بانک  *نام بانک*، شعبه  *نام/ کد شعبه* مورد نیاز است.<br />  خواهشمند است درخواست اینجانب بررسی و در صورت تأیید، اقدام لازم جهت صدور  گواهی مربوطه انجام شود.</p><p style='text-align: right;'>با تشکر</p>"
   },
   {
-    "id": "flight-change",
-    "title": "Flight Change Inquiry",
-    "category": "Flight Changes",
-    "description": "Respond to a customer asking about changing their flight and explain which details are needed to review available options.",
-    "subject": "Flight Change Inquiry - Booking {{bookingReference}}",
-    "body": "<p>Dear {{customerName}},</p><p>Thank you for contacting us about changing your flight associated with booking <strong>{{bookingReference}}</strong>.</p><p>We will be happy to review the available options for your request. Flight changes are subject to seat availability, applicable fare rules, and any change fees or fare differences.</p><p>To help us review your request, please provide your preferred new travel date and, if applicable, your preferred departure time or alternative flight.</p><p>Please do not consider your itinerary changed until you receive an official confirmation of the updated booking.</p><p>If you have already provided your preferred travel details, our team will review the information and advise you on the next steps.</p><p>Thank you for your understanding. We look forward to assisting you.</p><p>Kind regards,<br />Customer Support Team</p>",
-    "textBody": "Dear {{customerName}},\n\nThank you for contacting us about changing your flight associated with booking {{bookingReference}}.\n\nFlight changes are subject to seat availability, applicable fare rules, and any change fees or fare differences.\n\nPlease provide your preferred new travel date and, if applicable, your preferred departure time or alternative flight.\n\nPlease do not consider your itinerary changed until you receive an official confirmation of the updated booking.\n\nThank you for your understanding. We look forward to assisting you.\n\nKind regards,\nCustomer Support Team",
-    "variables": [
-      {
-        "name": "customerName",
-        "label": "Customer Name",
-        "example": "John Smith"
-      },
-      {
-        "name": "bookingReference",
-        "label": "Booking Reference",
-        "example": "ABC123"
-      }
-    ],
-    "tags": ["flight-change", "booking", "customer-support"],
-    "language": "en"
+    "id": "3",
+    "title": "گواهی کسر از حقوق",
+    "body": "<p style='text-align: right;'>درخواست گواهی کسر از حقوق</p><p style='text-align: right;'>معاونت محترم منابع انسانی شرکت هواپیمایی سپهران / دی کیش</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* درخواست صدور  گواهی کسر از حقوق خطاب به *مخاطب* را دارم.<br />  خواهشمند است درخواست اینجانب بررسی و در صورت تأیید، اقدام لازم جهت صدور  گواهی مربوطه انجام شود.<br /></p><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "4",
+    "title": "گواهی کسر از حقوق بانک",
+    "body": "<p style='text-align: right;'>گواهی کسر از حقوق بانک</p><p style='text-align: right;'>معاونت محترم منابع انسانی شرکت هواپیمایی سپهران / دی کیش</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* درخواست صدورگواهی کسر از حقوق خطاب به *مخاطب* را دارم.<br />گواهی مذکور جهت ارائه به بانک *نام بانک *، شعبه *نام یا کد شعبه* مورد نیازاست.<br />خواهشمند است درخواست اینجانب بررسی و در صورت تأیید، اقدام لازم جهت صدورگواهی مربوطه انجام شود.</p><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "5",
+    "title": "گواهی کسر از حقوق جهت ضمانت",
+    "body": "<p style='text-align: right;'>گواهی کسر از حقوق جهت ضمانت</p><p style='text-align: right;'>معاونت محترم منابع انسانی شرکت هواپیمایی سپهران / دی کیش</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی * درخواست  صدور گواهی کسر از حقوق جهت ضمانت آقای/خانم *نام و نام خانوادگی ضمانتشونده*  با کد ملی *کد ملی * را دارم.  <br />  گواهی مذکور جهت ارائه به *مخاطب / نام بانک و شعبه*مورد نیاز است.<br />  خواهشمند است درخواست اینجانب بررسی و در صورت تأیید، اقدام لازم جهت صدور  گواهی مربوطه انجام شود.</p><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "6",
+    "title": "فیش حقوقی ممهور",
+    "body": "<p style='text-align: right;'>درخواست فیش حقوقی ممهور</p><br /><p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* درخواست  دریافت فیش حقوقی ممهور به مهر شرکت را دارم.  <br />خواهشمند است درخواست مربوطه بررسی و اقدام لازم انجام شود.</p><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "7",
+    "title": "وام شرکتی",
+    "body": "<p style='text-align: right;'>درخواست وام شرکتی</p><p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی * کد پرسنلی* درخواست  استفاده از تسهیلات وام شرکتی به مبلغ *مبلغ مورد درخواست* را دارم.  <br />  شرح درخواست: <br />*شرح کامل علت درخواست *</p><p style='text-align: right;'>خواهشمند است درخواست اینجانب بررسی و نتیجه اعلام شود.</p><br/><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "8",
+    "title": "معرفی به بانک جهت دریافت وام",
+    "body": "<p style='text-align: right;'>درخواست معرفی به بانک جهت دریافت وام</p><p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی *با کد پرسنلی *کد پرسنلی* درخواست  معرفی به بانک جهت استفاده از تسهیلات به مبلغ *مبلغ مورد درخواست* را دارم  <br />  شرح درخواست: <br />*شرح کامل علت درخواست *</p><p style='text-align: right;'>خواهشمند است درخواست اینجانب بررسی و نتیجه اعلام شود.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "9",
+    "title": "حذف فرد تحت تکفل بیمه تکمیلی",
+    "body": "<p style='text-align: right;'>حذف فرد تحت تکفل</p><p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب * نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی *، درخواست  حذف آقای/خانم * نام فرد تحت تکفل* با نسبت *نسبت* از پوشش بیمه تکمیلی را به  علت * علت حذف* دارم.</p><p style='text-align: right;'>خواهشمند است درخواست مربوطه بررسی و اقدام لازم انجام شود.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "10",
+    "title": "افزودن همسر به بیمه تکمیلی",
+    "body": "<p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* درخواست  افزودن همسر خود به پوشش بیمه تکمیلی را دارم.</p><p style='text-align: right;'>  مدارک مورد نیاز شامل تصویر شناسنامه اینجانب، شناسنامه همسر و سند ازدواج به  پیوست ارسال شده است. خواهشمند است درخواست مربوطه بررسی و اقدام لازم انجام  شود.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "11",
+    "title": "افزودن فرزند به بیمه تکمیلی",
+    "body": "<p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما، اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* درخواست  افزودن فرزند خود به پوشش بیمه تکمیلی را دارم.</p><p style='text-align: right;'>  مدارک مورد نیاز شامل تصویر شناسنامه اینجانب و شناسنامه فرزند به پیوست  ارسال شده است. خواهشمند است درخواست مربوطه بررسی و اقدام لازم انجام شود.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "12",
+    "title": "سایر موضوعات بیمه تکمیلی",
+    "body": "<p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* درخواست  بررسی موضوع زیر در خصوص بیمه تکمیلی را دارم:</p><p style='text-align: right;'>موضوع: *موضوع درخواست *</p><p style='text-align: right;'>شرح: *شرح کامل درخواست*</p><p style='text-align: right;'>خواهشمند است موضوع بررسی و نتیجه اعلام شود.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "13",
+    "title": "معرفی نامه ایران دوچرخ",
+    "body": "<p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* و کد ملی *کد  ملی* درخواست صدور معرفی نامه جهت استفاده از شرایط خرید محصولات ایران دوچرخ  را دارم.</p><p style='text-align: right;'>  خواهشمند است درخواست اینجانب بررسی و در صورت احراز شرایط، اقدام لازم جهت  صدور معرفی نامه انجام شود.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "14",
+    "title": "تسهیلات دیجی پی",
+    "body": "<p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی * کد پرسنلی* و کد ملی  *کد ملی* درخواست معرفی جهت استفاده از اعتبار *نوع اعتبار* دیجی پی را دارم.</p><p style='text-align: right;'>  خواهشمند است درخواست اینجانب بررسی و در صورت احراز شرایط، اقدام لازم انجام  شود.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "15",
+    "title": "هدیه ازدواج",
+    "body": "<p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی * کد پرسنلی* درخواست بهره  مندی از هدیه ازدواج کارکنان را دارم.</p><p style='text-align: right;'>  مدارک مورد نیاز شامل تصویر شناسنامه اینجانب، شناسنامه همسر و سند ازدواج به  پیوست ارسال شده است. خواهشمند است درخواست اینجانب بررسی و اقدام لازم انجام  شود.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "16",
+    "title": "هدیه تولد فرزند",
+    "body": "<p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* درخواست بهره  مندی از هد یه تولد فرزند را دارم.جنسیت فرزند: {دختر / پسر {</p><p style='text-align: right;'>  مدارک مورد نیاز شامل تصویر شناسنامه اینجانب و شناسنامه فرزند به پیوست  ارسال شده است. خواهشمند است درخواست اینجانب بررسی و اقدام لازم انجام شود.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "17",
+    "title": "ارسال فیش حقوقی",
+    "body": "<p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراماً اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* شاغل در  شرکت *محل خدمت* درخواست ارسال فیش حقوقی *ماه مورد درخواست* را دارم.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "18",
+    "title": "توضیحات حقوق",
+    "body": "<p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراماً اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* شاغل در  شرکت *محل خدمت* درخواست جزئیات حقوق *ماه مورد درخواست* را دارم.</p><br /><p style='text-align: right;'>با تشکر</p>"
+  },
+  {
+    "id": "19",
+    "title": "جزئیات کارکرد / مانده مرخصی / تردد ناقص",
+    "body": "<p style='text-align: right;'>معاونت محترم منابع انسانی</p><p style='text-align: right;'>با سلام</p><p style='text-align: right;'>  احتراما اینجانب *نام و نام خانوادگی* با کد پرسنلی *کد پرسنلی* درخواست  *موضوع درخواست* را دارم.</p><br /><p style='text-align: right;'>با تشکر</p>"
   }
 ]
